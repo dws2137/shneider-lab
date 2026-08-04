@@ -15,10 +15,15 @@
 <header class="site">
   <nav class="nav">
     <a class="brand" href="index.html">
-      <svg class="brand-mark" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="6" cy="12" r="3.4" fill="#1B2A41"/>
-        <path d="M9 12H20" stroke="#B8793C" stroke-width="2" stroke-linecap="round"/>
-        <circle cx="21" cy="12" r="1.6" fill="#B8793C"/>
+      <svg class="brand-mark" viewBox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g stroke="#DE2727" stroke-width="1.1" fill="none">
+          <ellipse cx="9" cy="12" rx="8" ry="3.2"/>
+          <ellipse cx="9" cy="12" rx="8" ry="3.2" transform="rotate(60 9 12)"/>
+          <ellipse cx="9" cy="12" rx="8" ry="3.2" transform="rotate(120 9 12)"/>
+        </g>
+        <circle cx="9" cy="12" r="2.6" fill="#1B2A41"/>
+        <path d="M13 12H27" stroke="#1B2A41" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="28" cy="12" r="1.6" fill="#DE2727"/>
       </svg>
       Shneider Lab
     </a>
@@ -45,6 +50,44 @@
   <section style="border-top:none; padding-top:8px;">
     <div class="wrap">
 
+      <!-- ================= SELECTED PUBLICATIONS ================= -->
+      <div class="subsection-head">
+        <h2>Selected publications</h2>
+        <p>The lab's most significant papers — pick 3–6 that best represent the work, in any order you like. These are pulled out for a visitor who wants the highlights, not the full record.</p>
+      </div>
+      <div class="pub-selected-grid">
+        <div class="pub-selected-card">
+          <div class="pub-year">2025</div>
+          <div class="pub-title">
+            <a href="https://doi.org/10.1016/S0140-6736(25)00513-6" target="_blank" rel="noopener">Antisense oligonucleotide jacifusen for FUS-ALS: an investigator-initiated, multicentre, open-label case series</a>
+          </div>
+          <div class="pub-cite">Shneider NA, Harms MB, Korobeynikov VA, et al. <em>The Lancet</em>. 2025.</div>
+          <div class="pub-tag">Clinical · ASO therapy</div>
+        </div>
+        <div class="pub-selected-card">
+          <div class="pub-year">2022</div>
+          <div class="pub-title">
+            <a href="https://doi.org/10.1038/s41591-021-01615-z" target="_blank" rel="noopener">Antisense oligonucleotide silencing of FUS expression as a therapeutic approach in amyotrophic lateral sclerosis</a>
+          </div>
+          <div class="pub-cite">Korobeynikov VA, Lyashchenko AK, Blanco-Redondo B, Jafar-Nejad P, Shneider NA. <em>Nature Medicine</em>. 2022.</div>
+          <div class="pub-tag">Mechanism · Mouse model</div>
+        </div>
+        <div class="pub-selected-card">
+          <div class="pub-year">2016</div>
+          <div class="pub-title">
+            <a href="https://doi.org/10.1038/ncomms10465" target="_blank" rel="noopener">ALS-associated mutant FUS induces selective motor neuron degeneration through toxic gain of function</a>
+          </div>
+          <div class="pub-cite">Sharma A, Lyashchenko AK, Lu L, et al. <em>Nature Communications</em>. 2016.</div>
+          <div class="pub-tag">Basic mechanism</div>
+        </div>
+      </div>
+
+      <!-- ================= COMPLETE BIBLIOGRAPHY ================= -->
+      <div class="subsection-head">
+        <h2>Complete bibliography</h2>
+        <p>Every paper, most recent first. When you publish something new, add it to the top of this list — it should always read newest → oldest.</p>
+      </div>
+
       <div class="pub-filters">
         <button class="active">All years</button>
         <button>2020s</button>
@@ -52,6 +95,24 @@
       </div>
 
       <ul class="pub-list">
+        <li>
+          <div class="pub-year">2025</div>
+          <div>
+            <div class="pub-title">
+              <a href="https://doi.org/10.1016/S0140-6736(25)00513-6" target="_blank" rel="noopener">Antisense oligonucleotide jacifusen for FUS-ALS: an investigator-initiated, multicentre, open-label case series</a>
+            </div>
+            <div class="pub-cite">Shneider NA, Harms MB, Korobeynikov VA, et al. <em>The Lancet</em>. 2025.</div>
+          </div>
+        </li>
+        <li>
+          <div class="pub-year">2022</div>
+          <div>
+            <div class="pub-title">
+              <a href="https://doi.org/10.1038/s41591-021-01615-z" target="_blank" rel="noopener">Antisense oligonucleotide silencing of FUS expression as a therapeutic approach in amyotrophic lateral sclerosis</a>
+            </div>
+            <div class="pub-cite">Korobeynikov VA, Lyashchenko AK, Blanco-Redondo B, Jafar-Nejad P, Shneider NA. <em>Nature Medicine</em>. 2022.</div>
+          </div>
+        </li>
         <li>
           <div class="pub-year">2016</div>
           <div>
@@ -64,21 +125,7 @@
         <li>
           <div class="pub-year">[Year]</div>
           <div>
-            <div class="pub-title">[Add publication title]</div>
-            <div class="pub-cite">[Authors]. <em>[Journal]</em>.</div>
-          </div>
-        </li>
-        <li>
-          <div class="pub-year">[Year]</div>
-          <div>
-            <div class="pub-title">[Add publication title]</div>
-            <div class="pub-cite">[Authors]. <em>[Journal]</em>.</div>
-          </div>
-        </li>
-        <li>
-          <div class="pub-year">[Year]</div>
-          <div>
-            <div class="pub-title">[Add publication title]</div>
+            <div class="pub-title">[Add publication title — keep inserting new entries above this line, in descending year order]</div>
             <div class="pub-cite">[Authors]. <em>[Journal]</em>.</div>
           </div>
         </li>
