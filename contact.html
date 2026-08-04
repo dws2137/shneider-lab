@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Shneider Lab</title>
+<meta name="description" content="Contact the Shneider Lab at Columbia University.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <nav class="nav">
+    <a class="brand" href="index.html">
+      <svg class="brand-mark" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="6" cy="12" r="3.4" fill="#1B2A41"/>
+        <path d="M9 12H20" stroke="#B8793C" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="21" cy="12" r="1.6" fill="#B8793C"/>
+      </svg>
+      Shneider Lab
+    </a>
+    <ul class="navlinks">
+      <li><a href="research.html">Research</a></li>
+      <li><a href="index.html#people">People</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <div class="page-hero">
+    <span class="crumb"><a href="index.html">Home</a> / Contact</span>
+    <h1>Contact</h1>
+    <p class="lede">
+      We welcome inquiries from prospective students, postdocs, collaborators,
+      and patients seeking clinical information about the Eleanor and Lou Gehrig
+      ALS Center.
+    </p>
+  </div>
+
+  <section style="border-top:none; padding-top:8px;">
+    <div class="wrap contact-grid">
+
+      <div class="contact-card">
+        <h3>Lab &amp; mailing address</h3>
+        <div class="contact-row">
+          <div class="label">Lab</div>
+          <div>Shneider Lab<br>Department of Neurology</div>
+        </div>
+        <div class="contact-row">
+          <div class="label">Address</div>
+          <div>Columbia University Irving Medical Center<br>[Building, Room, Street Address]<br>New York, NY [ZIP]</div>
+        </div>
+        <div class="contact-row">
+          <div class="label">Email</div>
+          <div><a href="mailto:lab@example.columbia.edu">lab@example.columbia.edu</a></div>
+        </div>
+        <div class="contact-row">
+          <div class="label">Phone</div>
+          <div>[Lab phone number]</div>
+        </div>
+        <div class="contact-row">
+          <div class="label">Clinical</div>
+          <div>For patient appointments, contact the <a href="#">Eleanor and Lou Gehrig ALS Center</a> directly rather than the lab.</div>
+        </div>
+      </div>
+
+      <div>
+        <div class="map-box">
+          Embed a Google Map here once you have the exact<br>building address —
+          Google Maps → Share → Embed a map
+        </div>
+        <div class="contact-card" style="margin-top:20px;">
+          <h3>Prospective trainees</h3>
+          <p style="color:var(--ink-soft); font-size:14.5px; margin:0 0 10px;">
+            Undergraduates, graduate students, and postdoctoral researchers
+            interested in joining the lab should email a brief note about their
+            background and interests along with a CV.
+          </p>
+          <a class="btn primary" href="mailto:lab@example.columbia.edu?subject=Prospective%20lab%20member%20inquiry">Email the lab →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap footer-grid">
+    <div>
+      <strong style="color:var(--ink); font-family:'Source Serif 4',serif; font-size:16px;">Shneider Lab</strong><br>
+      Department of Neurology<br>
+      Columbia University Irving Medical Center<br>
+      New York, NY
+    </div>
+    <div>
+      <a href="mailto:lab@example.columbia.edu">lab@example.columbia.edu</a><br>
+      <a href="#">Twitter / X</a><br>
+      <a href="#">Lab GitHub</a>
+    </div>
+    <div>© <span id="year"></span> Shneider Lab, Columbia University</div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

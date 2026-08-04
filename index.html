@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shneider Lab — Motor Neuron Biology &amp; ALS Therapeutics</title>
+<meta name="description" content="The Shneider Lab at Columbia University studies the molecular mechanisms of motor neuron degeneration in ALS and related diseases.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <nav class="nav">
+    <a class="brand" href="index.html">
+      <svg class="brand-mark" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="6" cy="12" r="3.4" fill="#1B2A41"/>
+        <path d="M9 12H20" stroke="#B8793C" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="21" cy="12" r="1.6" fill="#B8793C"/>
+      </svg>
+      Shneider Lab
+    </a>
+    <ul class="navlinks">
+      <li><a href="research.html">Research</a></li>
+      <li><a href="index.html#people">People</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" style="border-top:none; padding-top:88px;">
+    <div>
+      <span class="eyebrow">Columbia University · Department of Neurology</span>
+      <h1 style="margin-top:14px;">Understanding how <em>motor neurons</em> fail in ALS —<br>and how to stop it.</h1>
+      <p class="lede">
+        The Shneider Lab studies the molecular mechanisms of motor neuron degeneration in
+        amyotrophic lateral sclerosis (ALS) and related diseases, and translates those
+        discoveries toward genetic therapies for patients.
+      </p>
+      <div class="cta-row">
+        <a class="btn primary" href="research.html">Explore our research</a>
+        <a class="btn ghost" href="contact.html">Join the lab</a>
+      </div>
+    </div>
+
+    <div class="axon-box">
+      <span class="cap">Signal propagation — motor axon</span>
+      <svg viewBox="0 0 380 160" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle class="soma" cx="34" cy="80" r="26"/>
+        <path class="axon-line" d="M60 80 H340" />
+        <g>
+          <rect class="myelin" x="70"  y="70" width="34" height="20" rx="5"/>
+          <rect class="myelin" x="118" y="70" width="34" height="20" rx="5"/>
+          <rect class="myelin" x="166" y="70" width="34" height="20" rx="5"/>
+          <rect class="myelin" x="214" y="70" width="34" height="20" rx="5"/>
+          <rect class="myelin" x="262" y="70" width="34" height="20" rx="5"/>
+          <rect class="myelin" x="310" y="70" width="30" height="20" rx="5"/>
+        </g>
+        <circle class="pulse" r="7" cy="80">
+          <animate attributeName="cx" values="46;340;46" dur="3.2s" keyTimes="0;0.5;1" begin="0s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;1;0;0;1" dur="3.2s" keyTimes="0;0.46;0.5;0.98;1" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="348" cy="72" r="4" fill="#3A4C63"/>
+        <circle cx="352" cy="80" r="4" fill="#3A4C63"/>
+        <circle cx="348" cy="88" r="4" fill="#3A4C63"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT / PI ================= -->
+  <section id="about">
+    <div class="wrap about-grid">
+      <div class="pi-card">
+        <div class="pi-photo">Photo of<br>Neil A. Shneider, MD, PhD<br><span style="opacity:.7;">(replace with headshot)</span></div>
+        <h3>Neil A. Shneider, MD, PhD</h3>
+        <div class="role">Principal Investigator</div>
+        <div class="meta">
+          Director, Eleanor and Lou Gehrig ALS Center<br>
+          Department of Neurology, Columbia University<br>
+          Center for Motor Neuron Biology and Disease
+        </div>
+      </div>
+      <div class="about-copy">
+        <p>
+          Dr. Shneider is a physician-scientist whose laboratory works at the intersection
+          of basic motor neuron biology and clinical neuromuscular disease. He trained in
+          the laboratories of Richard Axel and Thomas Jessell before returning to Columbia,
+          where he directs the Eleanor and Lou Gehrig ALS Center and treats patients with
+          ALS and related motor neuron disorders.
+        </p>
+        <p>
+          The lab uses mouse genetics and patient-derived induced pluripotent stem cell
+          (iPSC) models to study how mutant RNA-binding proteins — including FUS and
+          TDP-43 — form abnormal ribonucleoprotein assemblies that are selectively toxic
+          to motor neurons. The long-term goal is to turn mechanistic insight into
+          genetic and molecular therapies that reach patients.
+        </p>
+        <a class="btn ghost" href="research.html">Read about our research →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PEOPLE ================= -->
+  <section id="people">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <h2>People</h2>
+          <p>Add each lab member's photo, name, and role below — this grid is built to grow.</p>
+        </div>
+      </div>
+      <div class="people-grid">
+        <div class="person">
+          <div class="avatar">Photo</div>
+          <h4>[Name]</h4>
+          <div class="ptitle">Postdoctoral Fellow</div>
+        </div>
+        <div class="person">
+          <div class="avatar">Photo</div>
+          <h4>[Name]</h4>
+          <div class="ptitle">Graduate Student</div>
+        </div>
+        <div class="person">
+          <div class="avatar">Photo</div>
+          <h4>[Name]</h4>
+          <div class="ptitle">Research Scientist</div>
+        </div>
+        <div class="person">
+          <div class="avatar">Photo</div>
+          <h4>[Name]</h4>
+          <div class="ptitle">Lab Manager</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= JOIN ================= -->
+  <section id="join">
+    <div class="wrap">
+      <div class="join">
+        <div>
+          <span class="eyebrow" style="color:var(--accent-dim);">We're recruiting</span>
+          <h2 style="margin-top:10px;">Join the lab</h2>
+          <p>We welcome inquiries from undergraduates, graduate students, and
+          postdoctoral researchers interested in motor neuron biology and
+          neurodegenerative disease.</p>
+        </div>
+        <a class="btn primary" href="contact.html">Get in touch</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap footer-grid">
+    <div>
+      <strong style="color:var(--ink); font-family:'Source Serif 4',serif; font-size:16px;">Shneider Lab</strong><br>
+      Department of Neurology<br>
+      Columbia University Irving Medical Center<br>
+      New York, NY
+    </div>
+    <div>
+      <a href="mailto:lab@example.columbia.edu">lab@example.columbia.edu</a><br>
+      <a href="#">Twitter / X</a><br>
+      <a href="#">Lab GitHub</a>
+    </div>
+    <div>© <span id="year"></span> Shneider Lab, Columbia University</div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

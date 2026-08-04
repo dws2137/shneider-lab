@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research — Shneider Lab</title>
+<meta name="description" content="Research in the Shneider Lab: RNA-binding protein toxicity, iPSC disease models, and genetic therapies for ALS and motor neuron disease.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <nav class="nav">
+    <a class="brand" href="index.html">
+      <svg class="brand-mark" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="6" cy="12" r="3.4" fill="#1B2A41"/>
+        <path d="M9 12H20" stroke="#B8793C" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="21" cy="12" r="1.6" fill="#B8793C"/>
+      </svg>
+      Shneider Lab
+    </a>
+    <ul class="navlinks">
+      <li><a href="research.html">Research</a></li>
+      <li><a href="index.html#people">People</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <div class="page-hero">
+    <span class="crumb"><a href="index.html">Home</a> / Research</span>
+    <h1>Research</h1>
+    <p class="lede">
+      We study why motor neurons are selectively vulnerable in ALS — from the
+      molecular behavior of disease-associated RNA-binding proteins, to patient-derived
+      cellular models, to genetic strategies aimed at slowing disease in patients.
+    </p>
+  </div>
+
+  <section style="border-top:none; padding-top:8px;">
+    <div class="wrap">
+      <div class="research-detail">
+
+        <div class="rdet">
+          <div>
+            <span class="num">01</span>
+          </div>
+          <div>
+            <h3>RNA-binding protein toxicity</h3>
+            <p>
+              Mutations in RNA-binding proteins such as FUS and TDP-43 cause inherited
+              forms of ALS, and abnormal forms of these proteins are found in the
+              majority of sporadic cases as well. We study how mutant FUS and TDP-43
+              mislocalize and form abnormal ribonucleoprotein assemblies, and why this
+              toxic gain of function selectively injures motor neurons rather than
+              other cell types.
+            </p>
+            <div class="method-tags">
+              <span>Mouse genetics</span>
+              <span>RNA biology</span>
+              <span>Protein aggregation</span>
+              <span>Electrophysiology</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="rdet">
+          <div><span class="num">02</span></div>
+          <div>
+            <h3>Patient-derived disease models</h3>
+            <p>
+              We generate and characterize induced pluripotent stem cell (iPSC) lines
+              from clinically well-characterized ALS patients, differentiating them
+              into motor neurons to study disease mechanisms directly in human cells.
+              These models let us connect a patient's genetics and clinical course to
+              cellular phenotypes we can measure and manipulate in the lab.
+            </p>
+            <div class="method-tags">
+              <span>iPSC differentiation</span>
+              <span>Live-cell imaging</span>
+              <span>Patient cohorts</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="rdet">
+          <div><span class="num">03</span></div>
+          <div>
+            <h3>Toward genetic therapies</h3>
+            <p>
+              Using animal and cellular models of motor neuron degeneration, we
+              identify candidate targets and evaluate genetic and molecular
+              strategies — including approaches that reduce or correct toxic
+              protein expression — with the goal of translating findings from the
+              bench toward treatments for ALS and related motor neuron diseases.
+            </p>
+            <div class="method-tags">
+              <span>Target validation</span>
+              <span>Preclinical models</span>
+              <span>Translational neuroscience</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="join" style="margin-top:8px;">
+        <div>
+          <span class="eyebrow" style="color:var(--accent-dim);">Collaborate</span>
+          <h2 style="margin-top:10px;">Interested in a collaboration or rotation?</h2>
+          <p>We're always open to talking with clinicians, students, and labs
+          working on related questions in neurodegeneration.</p>
+        </div>
+        <a class="btn primary" href="contact.html">Contact the lab</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap footer-grid">
+    <div>
+      <strong style="color:var(--ink); font-family:'Source Serif 4',serif; font-size:16px;">Shneider Lab</strong><br>
+      Department of Neurology<br>
+      Columbia University Irving Medical Center<br>
+      New York, NY
+    </div>
+    <div>
+      <a href="mailto:lab@example.columbia.edu">lab@example.columbia.edu</a><br>
+      <a href="#">Twitter / X</a><br>
+      <a href="#">Lab GitHub</a>
+    </div>
+    <div>© <span id="year"></span> Shneider Lab, Columbia University</div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
