@@ -15,21 +15,22 @@
 <header class="site">
   <nav class="nav">
     <a class="brand" href="index.html">
-      <svg class="brand-mark" viewBox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <g stroke="#DE2727" stroke-width="1.1" fill="none">
-          <ellipse cx="9" cy="12" rx="8" ry="3.2"/>
-          <ellipse cx="9" cy="12" rx="8" ry="3.2" transform="rotate(60 9 12)"/>
-          <ellipse cx="9" cy="12" rx="8" ry="3.2" transform="rotate(120 9 12)"/>
+      <svg class="brand-mark" viewBox="0 0 36 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g stroke="#DE2727" stroke-width="1.2" fill="none">
+          <ellipse cx="12" cy="13" rx="10" ry="4"/>
+          <ellipse cx="12" cy="13" rx="10" ry="4" transform="rotate(60 12 13)"/>
+          <ellipse cx="12" cy="13" rx="10" ry="4" transform="rotate(120 12 13)"/>
         </g>
-        <circle cx="9" cy="12" r="2.6" fill="#1B2A41"/>
-        <path d="M13 12H27" stroke="#1B2A41" stroke-width="2" stroke-linecap="round"/>
-        <circle cx="28" cy="12" r="1.6" fill="#DE2727"/>
+        <circle cx="12" cy="13" r="3.6" fill="#16213A"/>
+        <path d="M22 13H33" stroke="#16213A" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="34" cy="13" r="1.8" fill="#DE2727"/>
       </svg>
       Shneider Lab
     </a>
     <ul class="navlinks">
       <li><a href="research.html">Research</a></li>
-      <li><a href="index.html#people">People</a></li>
+      <li><a href="people.html">People</a></li>
+      <li><a href="silence-als.html">Silence ALS</a></li>
       <li><a href="publications.html">Publications</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
@@ -41,7 +42,7 @@
   <!-- ================= HERO ================= -->
   <section class="hero" style="border-top:none; padding-top:88px;">
     <div>
-      <span class="eyebrow">Columbia University · Department of Neurology</span>
+      <span class="eyebrow-lg">Columbia University · Department of Neurology</span>
       <h1 style="margin-top:14px;">Understanding how <em>motor neurons</em> fail in ALS —<br>and how to stop it.</h1>
       <p class="lede">
         The Shneider Lab studies the molecular mechanisms of motor neuron degeneration in
@@ -58,69 +59,31 @@
       <span class="cap">Signal propagation — motor axon</span>
       <svg viewBox="0 0 380 160" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <g>
-          <g stroke="#DE2727" stroke-width="1.4" fill="none">
-            <ellipse cx="34" cy="80" rx="24" ry="9"/>
-            <ellipse cx="34" cy="80" rx="24" ry="9" transform="rotate(60 34 80)"/>
-            <ellipse cx="34" cy="80" rx="24" ry="9" transform="rotate(120 34 80)"/>
-            <animateTransform attributeName="transform" type="rotate" from="0 34 80" to="360 34 80" dur="18s" repeatCount="indefinite"/>
+          <g stroke="#DE2727" stroke-width="1.7" fill="none">
+            <ellipse cx="40" cy="80" rx="34" ry="13"/>
+            <ellipse cx="40" cy="80" rx="34" ry="13" transform="rotate(60 40 80)"/>
+            <ellipse cx="40" cy="80" rx="34" ry="13" transform="rotate(120 40 80)"/>
+            <animateTransform attributeName="transform" type="rotate" from="0 40 80" to="360 40 80" dur="18s" repeatCount="indefinite"/>
           </g>
-          <circle class="soma" cx="34" cy="80" r="9"/>
+          <circle class="soma" cx="40" cy="80" r="13"/>
         </g>
-        <path class="axon-line" d="M60 80 H340" />
+        <path class="axon-line" d="M78 80H340" />
         <g>
-          <rect class="myelin" x="70"  y="70" width="34" height="20" rx="5"/>
-          <rect class="myelin" x="118" y="70" width="34" height="20" rx="5"/>
-          <rect class="myelin" x="166" y="70" width="34" height="20" rx="5"/>
-          <rect class="myelin" x="214" y="70" width="34" height="20" rx="5"/>
-          <rect class="myelin" x="262" y="70" width="34" height="20" rx="5"/>
-          <rect class="myelin" x="310" y="70" width="30" height="20" rx="5"/>
+          <rect class="myelin" x="86"  y="70" width="32" height="20" rx="5"/>
+          <rect class="myelin" x="128" y="70" width="32" height="20" rx="5"/>
+          <rect class="myelin" x="170" y="70" width="32" height="20" rx="5"/>
+          <rect class="myelin" x="212" y="70" width="32" height="20" rx="5"/>
+          <rect class="myelin" x="254" y="70" width="32" height="20" rx="5"/>
+          <rect class="myelin" x="296" y="70" width="30" height="20" rx="5"/>
         </g>
         <circle class="pulse" r="7" cy="80">
-          <animate attributeName="cx" values="46;340;46" dur="3.2s" keyTimes="0;0.5;1" begin="0s" repeatCount="indefinite"/>
+          <animate attributeName="cx" values="92;332;92" dur="3.2s" keyTimes="0;0.5;1" begin="0s" repeatCount="indefinite"/>
           <animate attributeName="opacity" values="1;1;0;0;1" dur="3.2s" keyTimes="0;0.46;0.5;0.98;1" repeatCount="indefinite"/>
         </circle>
-        <circle cx="348" cy="72" r="4" fill="#3A4C63"/>
-        <circle cx="352" cy="80" r="4" fill="#3A4C63"/>
-        <circle cx="348" cy="88" r="4" fill="#3A4C63"/>
+        <circle cx="340" cy="72" r="4" fill="#3A4C63"/>
+        <circle cx="344" cy="80" r="4" fill="#3A4C63"/>
+        <circle cx="340" cy="88" r="4" fill="#3A4C63"/>
       </svg>
-    </div>
-  </section>
-
-  <!-- ================= ABOUT / PI ================= -->
-  <section id="about">
-    <div class="wrap about-grid">
-      <div class="pi-card">
-        <div class="pi-photo">Photo of<br>Neil A. Shneider, MD, PhD<br><span style="opacity:.7;">(replace with headshot)</span></div>
-        <h3>Neil A. Shneider, MD, PhD</h3>
-        <div class="role">Principal Investigator</div>
-        <div class="meta">
-          Director, Eleanor and Lou Gehrig ALS Center<br>
-          Department of Neurology, Columbia University<br>
-          Center for Motor Neuron Biology and Disease
-        </div>
-        <!-- Replace each logo-slot below with <img src="lou-gehrig-center-logo.png" alt="..."> once you have the files -->
-        <div class="affiliate-logos">
-          <div class="logo-slot">Eleanor &amp; Lou Gehrig<br>ALS Center logo</div>
-          <div class="logo-slot">Center for Motor<br>Neuron Biology &amp; Disease logo</div>
-        </div>
-      </div>
-      <div class="about-copy">
-        <p>
-          Dr. Shneider is a physician-scientist whose laboratory works at the intersection
-          of basic motor neuron biology and clinical neuromuscular disease. He trained in
-          the laboratories of Richard Axel and Thomas Jessell before returning to Columbia,
-          where he directs the Eleanor and Lou Gehrig ALS Center and treats patients with
-          ALS and related motor neuron disorders.
-        </p>
-        <p>
-          The lab uses mouse genetics and patient-derived induced pluripotent stem cell
-          (iPSC) models to study how mutant RNA-binding proteins — including FUS and
-          TDP-43 — form abnormal ribonucleoprotein assemblies that are selectively toxic
-          to motor neurons. The long-term goal is to turn mechanistic insight into
-          genetic and molecular therapies that reach patients.
-        </p>
-        <a class="btn ghost" href="research.html">Read about our research →</a>
-      </div>
     </div>
   </section>
 
@@ -192,43 +155,9 @@
           <span>The Lancet, 2025</span>
           <span>Silence ALS program</span>
         </div>
-        <a class="btn ghost" href="research.html" style="margin-top:22px; display:inline-block;">More on our therapeutic work →</a>
+        <a class="btn ghost" href="silence-als.html" style="margin-top:22px; display:inline-block;">More on the Silence ALS program →</a>
       </div>
 
-    </div>
-  </section>
-
-  <!-- ================= PEOPLE ================= -->
-  <section id="people">
-    <div class="wrap">
-      <div class="section-head">
-        <div>
-          <h2>People</h2>
-          <p>Add each lab member's photo, name, and role below — this grid is built to grow.</p>
-        </div>
-      </div>
-      <div class="people-grid">
-        <div class="person">
-          <div class="avatar">Photo</div>
-          <h4>[Name]</h4>
-          <div class="ptitle">Postdoctoral Fellow</div>
-        </div>
-        <div class="person">
-          <div class="avatar">Photo</div>
-          <h4>[Name]</h4>
-          <div class="ptitle">Graduate Student</div>
-        </div>
-        <div class="person">
-          <div class="avatar">Photo</div>
-          <h4>[Name]</h4>
-          <div class="ptitle">Research Scientist</div>
-        </div>
-        <div class="person">
-          <div class="avatar">Photo</div>
-          <h4>[Name]</h4>
-          <div class="ptitle">Lab Manager</div>
-        </div>
-      </div>
     </div>
   </section>
 
